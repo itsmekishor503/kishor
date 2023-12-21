@@ -1,0 +1,185 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    
+    
+}
+header{
+    background-color: #dbdbdb;
+
+}
+
+header img{
+    width: 400px;
+    display: flex;
+    
+}
+nav{
+    background-color: #723a32;
+}
+.menu{
+    float: left;
+
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+.menu{
+    float:left;
+}
+.search{
+    float: right;
+    padding-top: 4px;
+}
+.search input{
+    padding: 5px;
+    margin: 2px;
+    width:200px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.clear{
+    clear: both;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(183, 80, 98);
+    padding: 1px 5px;
+}
+.info h2{
+    color: white;
+    font-size: 18px;
+    font-family: serif;  
+}
+.info span{
+    font-style: italic;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+.info a{
+    margin: 10px 0;
+    background-color: white;
+    color: black;
+    padding: 1px 1px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.box{
+    background-color: white;
+    width: 32%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 300px;
+}
+.box h3{
+    color: black;
+    font-size: 26px;
+    font-family: serif;
+    padding: 5px 80px;
+}
+.hot,.stocked,.discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 19px;
+    font-size: 20px;
+    font-family: serif;
+}
+.hot{
+    background-color: rgb(148, 113, 49);
+    color: white;
+}
+.stocked{
+    background-color: rgb(171, 81, 81);
+    color: white;
+}
+.discount{
+    background-color:rgb(146, 35, 146);
+    color: white;
+}
+.newsletter{
+    background-color: #723a32;
+    padding: 30px 0;
+    background-image:url('../image/Untitled\ Project\ \(1\).jpg');
+
+}
+.newsletter form{
+    display: block;
+    text-align: center;
+}
+.newsletter input[type=text]{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid black;
+}
+.newsletter input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(130, 190, 106);
+    color: white;
+    border: none;
+}
+.newsletter h4{
+    color: #dbdbdb;
+    font-size: 30px;
+    font-family: serif;
+}
+footer{
+    padding: 40px;
+}
+.footer_boxes{
+    display: flex;
+}
+.footer_box{
+    background-color: white;
+    /* width: 25%; */
+}
+
+.footer_boxes h5{
+    color: rgb(183, 80, 98);
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+}
+.footer_boxes ul{
+    list-style: none;
+    text-align: center;
+
+}
+.footer_boxes ul li a{
+    color: rgb(72, 72, 151);
+    font-family: serif;
+    font-size: 16px;
+    text-decoration: none;
+}
